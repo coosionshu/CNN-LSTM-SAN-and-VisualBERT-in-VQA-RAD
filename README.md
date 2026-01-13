@@ -16,13 +16,13 @@ This repository implements and compares two distinct architectures for the **VQA
 
 A classical dual-stream approach for VQA tasks:
 
-- **Image Encoder**: Pre-trained ResNet/VGG to extract spatial visual features.
+- **Image Encoder**: Pre-trained ResNet152 to extract spatial visual features.
 - **Text Encoder**: LSTM/GRU to process the sequence of the medical question.
 - **Attention**: **Stacked Attention Networks (SAN)** perform multi-layer query-image reasoning to locate lesion areas related to the question.
 
 一种经典的 VQA 双流处理方法：
 
-- **图像编码器**：使用预训练的 ResNet/VGG 提取空间视觉特征。
+- **图像编码器**：使用预训练的 ResNet152 提取空间视觉特征。
 - **文本编码器**：使用 LSTM/GRU 处理医学问题的序列信息。
 - **注意力机制**：**堆叠注意力网络 (SAN)** 通过多层“问题-图像”推理，定位与问题相关的病灶区域。
 
