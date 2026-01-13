@@ -1,1 +1,1 @@
-Run the corresponding train.py to obtain
+python train_visualbert.py
