@@ -116,7 +116,6 @@ python train_visualbert.py
 - `./model.py`: Source code for model. (模型源代码)
 - `./train_baseline.py`: Source code for train CNN-LSTM +SAN. (模型训练源代码)
 - `./train_visualbert.py`: Source code for train VisualBERT. (模型训练源代码)
-- `./train_visualbert.py`: Source code for train VisualBERT. (模型训练源代码)
 - `./requirements.txt`: env_txt. (所需环境)
 - `weights/`: Saved model checkpoints. (模型权重保存路径)
 - `eval/`: Evaluation scripts for VQA accuracy and BLEU scores. (评估指标计算脚本)
